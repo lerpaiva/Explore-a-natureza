@@ -1,0 +1,43 @@
+.menu{
+    padding-left: 240px;
+}
+.head{
+    max-width: var(--width);
+    margin: 2rem 0 2rem auto;
+    background-color: var(--background-green);
+    color: white;
+    display: flex;
+    height: 64px;
+
+}
+.cabeçalho{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    padding: 10px;
+    padding-left: 10px;
+    align-items: center;
+}
+
+a{
+    color:var(--color-white);
+    font-size: 14px;
+    font-family: var(--font-primary);
+    font-weight: 600;
+    
+}
+.material-symbols-outlined{
+    margin-right: 5px;
+    margin-left: 20px;
+}
+.login{
+    background-color: var(--color-white);
+    color: var(--color-title);
+    display: flex;
+    flex-direction: row;
+    margin: 11px;
+    border-radius: 5px;
+    align-items: center;
+    gap: 2px;
+    color: black;
+}
