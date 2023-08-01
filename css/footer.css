@@ -1,0 +1,14 @@
+.footer{
+    padding-left: 240px;
+}
+.foot{
+    max-width: var(--width);
+    background-color: var(--background-green);
+    color: white;
+    display: flex;
+    height: 65px;
+}
+.direitos{
+    margin-top: 20px;
+    margin-left: 25px;
+}
