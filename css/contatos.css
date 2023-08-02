@@ -1,12 +1,17 @@
-.info{
-    font-family: 'Poppins';
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 29px;
-    letter-spacing: 0em;
-    text-align: left;
-}
 
 iframe{
-    padding-left: 140px;
+    width: 400px;
+    height: 400px;
+    margin-left: 50px;
+}
+.paragrafs{
+    display:flex;
+    flex-direction: column;
+    gap:15px
+}
+.sec4{
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
