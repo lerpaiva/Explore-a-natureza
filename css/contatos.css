@@ -8,5 +8,12 @@
 }
 
 iframe{
-    padding-left: 140px;
+    
+    margin-top: 50px;
+    display:flex;
+}
+.if{
+    margin-left: 80px;
+    margin-top: 50px;
+    display: flex;
 }
