@@ -30,3 +30,11 @@
 .js-faq p.active{
     display:block;
 }
+@media screen and(max-width:680px){
+    .tit2{
+        justify-items: center;
+        margin: 30px;
+        font-size: 30px;
+    }
+    
+}

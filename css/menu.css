@@ -33,15 +33,7 @@ a{
     margin-right: 5px;
     margin-left: 22px;
 }
-.login{
-    color: var(--color-white);
-    display: flex;
-    flex-direction: row;
-    margin: 11px;
-    border-radius: 5px;
-    align-items: center;
-    gap: 2px;
-}
+
 .toggle {
     align-items: center;
     gap: 0.5rem;
@@ -55,6 +47,12 @@ a{
 } 
 .js-liste{
     display: flex;
+}
+@media screen and (max-width: 680px){
+    .menu{
+        padding-left: 0px;
+    }
+    
 }
 @media screen and (max-width: 768px) {
     .toggle {
