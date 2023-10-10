@@ -10,52 +10,71 @@
     <link rel="stylesheet"href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
+    <!-- Aqui na header é criado o menu-->
     <header class="menu">
+        <!--Nav para incluir todos os itens de navegação do menu-->
         <nav class="head">
+            <!--Div do "menu", que é um botão que irá aparecer caso a tela do dispositivo seja pequena, para nao ocupar tanto espaço-->
             <div class="toggle">
                 MENU
+                <!--Simbolo que ficará ao lado para simbolizar o menu-->
                 <span class="material-symbols-outlined">
                     menu
                 </span>
             </div>
+            <!--Div geral de todos os itens de navegação-->
             <div class="js-liste">
+                <!--div para cada um dos itens da navegação, nesse caso do botão natureza-->
                 <div class="cabeçalho">
+                    <!--div para manipular o icone vindo do google icons-->
                     <div class="icon">
                         <span class="material-symbols-outlined">
                         eco
                         </span>
                     </div>
                     <div>
+                        <!--Usando da tag "a" para poder colocar um link -->
                         <a href="">NATUREZA</a>
                     </div>
                 </div>
-                
+
+                <!--div para cada um dos itens da navegação, nesse caso do botão FAQ-->
                 <div class="cabeçalho">
+                    <!--div para manipular o icone vindo do google icons-->
                     <div class="icon">
                         <span class="material-symbols-outlined">
                         quiz</span>
                     </div>
-                    <div> 
+                    <div>
+                        <!--Usando da tag "a" para poder colocar um link -->
                         <a href="">FAQ</a>
                     </div>
                 </div>
+
+                <!--div para cada um dos itens da navegação, nesse caso do botão contato-->
                 <div class="cabeçalho">
+                    <!--div para manipular o icone vindo do google icons-->
                     <div class="icon">
                         <span class="material-symbols-outlined">
                         contact_support
                         </span>
                     </div>
                     <div>
+                        <!--Usando da tag "a" para poder colocar um link -->
                         <a href="">CONTATO</a>
                     </div>
                 </div>
+                
+                <!--div para cada um dos itens da navegação, nesse caso do botão login-->
                 <div class="cabeçalho">
+                    <!--div para manipular o icone vindo do google icons-->
                     <div class="icon">
                     <span class="material-symbols-outlined">
                         account_circle
                         </span>
                     </div>
                     <div>
+                        <!--Usando da tag "a" para poder colocar um link -->
                         <a href="">LOGIN</a>
                     </div>
                 </div>
@@ -66,10 +85,13 @@
 
 
 
-
+    <!--tag main para a construção da home (página principal)-->
     <main class="home">
+        <!--Título principal da página-->
         <h1 class="titulo">EXPLORE A NATUREZA!🌲</h1>
+        <!--Div para todas as informações da home, com uma classe chamada separar, que tinha sido criada antes da aplicação do java script-->
         <div class="separar">
+            <!--Div da lista de imagens que haverão no scroll-->
             <div class="imagem js-list">
                 <li><img src="img/natureza.jpg" alt=""></li>
                 <li><img src="img/praias.jpg" alt=""></li>
@@ -77,16 +99,21 @@
                 
                 <li><img src="img/Florestas.jpg" alt=""></li>
             </div>
-
+            <!--div dos conteúdos da home-->
             <div class="home1 js-conteudo">
+                <!--section para separar os tópicos, nesse está sendo abordado o tema natureza-->
                 <section>
+                    <!--uso do icon vindo do google icons que ficará ao lado do título de cada tema-->
                     <div class="simbolo">
+                        <!--título "natureza" em h2-->
                         <h2 class="h2"><span class="material-symbols-outlined">
                         eco
                         </span>
                         NATUREZA:</h2>
                     </div>
+                        <!--DIV para manipulação geral dos textos desse tema-->
                         <div class="paragrafos">
+                            <!--tag "p" para cada texto, com classe para manipulação individual no css-->
                             <p class="paragrafo">Explorar a natureza é uma atividade incrível que pode proporcionar uma série de benefícios
                                 físicos e mentais. Ao estar em contato com a natureza, é possível reduzir o estresse, aumentar a
                                 criatividade e melhorar o bem-estar geral.</p>
@@ -100,14 +127,20 @@
                                 ajudamos a proteger esse ambiente valioso para as gerações futuras.</p>
                         </div>
                 </section>
+
+                <!--section para separar os tópicos, nesse está sendo abordado o tema praia-->
                 <section>
+                    <!--uso do icon vindo do google icons que ficará ao lado do título de cada tema-->
                     <div class="simbolo">
+                        <!--título "praias" em h2-->
                         <h2 class="h2"><span class="material-symbols-outlined">
                             kitesurfing
                             </span>
                         PRAIAS:</h2>
                     </div>
+                        <!--DIV para manipulação geral dos textos desse tema-->
                         <div class="paragrafos">
+                            <!--tag "p" para cada texto, com classe para manipulação individual no css-->
                             <p class="paragrafo">As praias são um exemplo maravilhoso da natureza que podem ser exploradas de muitas
                                 maneiras. Elas são consideradas por muitos como um refúgio para relaxar, praticar atividades
                                 físicas, contemplar a beleza natural e socializar. As praias oferecem uma vasta gama de
@@ -126,14 +159,20 @@
                         
                         </div>
                 </section>
+
+                <!--section para separar os tópicos, nesse está sendo abordado o tema montanhas-->
                 <section>
+                    <!--uso do icon vindo do google icons que ficará ao lado do título de cada tema-->
                     <div class="simbolo">
+                        <!--título "montanhas" em h2-->
                         <h2 class="h2"><span class="material-symbols-outlined">
                             landscape
                             </span>
                         MONTANHAS:</h2>
                     </div>
+                        <!--DIV para manipulação geral dos textos desse tema-->
                         <div class="paragrafos">
+                            <!--tag "p" para cada texto, com classe para manipulação individual no css-->
                             <p class="paragrafo">Assim como as praias, as montanhas também são um exemplo maravilhoso da natureza que
                                 podem ser exploradas de muitas maneiras. As montanhas oferecem uma grande variedade de
                                 atividades, desde caminhadas e escaladas até esportes de inverno, como esqui e snowboard.
@@ -146,14 +185,20 @@
                                 as normas de segurança.</p>
                         </div>
                 </section>
+
+                <!--section para separar os tópicos, nesse está sendo abordado o tema florestas-->
                 <section>
+                    <!--uso do icon vindo do google icons que ficará ao lado do título de cada tema-->
                     <div class="simbolo">
+                        <!--título "florestas" em h2-->
                         <h2 class="h2"><span class="material-symbols-outlined">
                             forest
                             </span>
                         FLORESTAS:</h2>
                     </div>
+                        <!--DIV para manipulação geral dos textos desse tema-->
                         <div class="paragrafos">
+                            <!--tag "p" para cada texto, com classe para manipulação individual no css-->
                             <p class="paragrafo">As florestas são ecossistemas complexos e diversificados, que oferecem uma ampla gama de
                                 benefícios ecológicos, sociais e econômicos. As florestas podem ser exploradas de muitas
                                 maneiras, desde atividades de recreação, como caminhadas e acampamentos, até a colheita
@@ -171,7 +216,9 @@
                 </section>
             </div>
         </div>
+    <!--fim da main-->
     </main>
+    <!--Section para o faq-->
     <section class="js-faq">
         <div class="FAQ">
             <h2 class="titulo">FAQ💬..........</h2>

@@ -65,3 +65,20 @@ img{
 .js-conteudo section.active{
     display: block;
 }
+@media screen and (max-width: 680px){
+    
+    .titulo{
+        font-size: 45px;
+    }
+    .h2{
+        font-size: 25px;
+    }
+    .paragrafo{
+        font-size: 15px;
+    }
+    .imagem{
+        height: 400px;
+        width: 150px
+    }
+
+}
