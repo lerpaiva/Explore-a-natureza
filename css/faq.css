@@ -12,6 +12,7 @@
 }
 
 .parag{
+    max-width: 700px;
     margin-top: 15px;
     margin-bottom: 15px;
     font-family: 'Poppins';
@@ -31,10 +32,22 @@
     display:block;
 }
 @media screen and(max-width:680px){
-    .tit2{
-        justify-items: center;
-        margin: 30px;
-        font-size: 30px;
+    .pergunta{
+        margin:0px;
+        padding:0px;
+        display:grid;
+        grid-template-columns: 2fr;
+        font-size: 25px;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .parag{
+        display:grid;
+        grid-template-columns: 2fr;
+        font-size: 15px;
+        justify-content: center;
+        align-items: center;
     }
     
 }

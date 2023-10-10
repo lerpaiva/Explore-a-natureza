@@ -1,7 +1,6 @@
-
-iframe{
+.iframer{
         
-        margin-top: 50px;
+        margin-left: 50px;
         display:flex;
     }
 .if{
@@ -18,7 +17,7 @@ iframe{
         gap:15px
     }
 .sec4{
-        margin: 50px;
+        margin-left: 50px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
