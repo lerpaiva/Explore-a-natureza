@@ -1,8 +1,4 @@
-.iframer{
-        
-        margin-left: 50px;
-        display:flex;
-    }
+
 .if{
         margin-left: 80px;
         margin-top: 50px;
@@ -10,16 +6,48 @@
         width: 400px;
         height: 400px;
         margin-left: 50px;
+        gap:15px;
+    }
+.iframer{
+        
+        margin-left: 50px;
+        display:flex;
     }
 .paragrafs{
         display:flex;
         flex-direction: column;
-        gap:15px
+        gap:15px;
+        justify-content: space-between;
     }
 .sec4{
         margin-left: 50px;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+        gap:15px;
         justify-content: space-between;
     
+    }
+    @media screen and (max-width: 680px) {
+        .iframer {
+            margin: 30px;
+        }
+        .if {
+            margin: 30px;
+            width: 200px;
+            height: 200px;
+        }
+    }
+    
+    @media screen and (max-width: 460px) {
+        .iframer {
+            margin: 30px;
+            width: 200px;
+            height:200px;
+        }
+       .if{
+        display: flex;
+        flex-direction: column;
+        gap:15px;
+        justify-content: space-between;
+       }
     }

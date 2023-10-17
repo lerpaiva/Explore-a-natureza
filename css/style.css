@@ -3,6 +3,8 @@
 @import url(./menu.css);
 @import url(./home.css);
 @import url(./faq.css);
-@import url(./contato.css);
+@import url(./contatos.css);
 @import url(./footer.css);
+@import url(./modal.css);
 
+/*importando todos os css para um*/

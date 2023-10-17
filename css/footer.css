@@ -1,6 +1,8 @@
+/* um padding do lado esquerdo da footer*/
 .footer{
     padding-left: 240px;
 }
+/*Estilização da footer junto da frase, sua altura, cor*/
 .foot{
     max-width: var(--width);
     background-color: var(--background-green);
@@ -8,14 +10,24 @@
     display: flex;
     height: 65px;
 }
+/*posicionamento da frase */
 .direitos{
     margin-top: 20px;
     margin-left: 25px;
 }
-
+/*ajustando as medidas para telas com máximo de 680 e 460*/
 @media screen and(max-width:680px) {
     .foot{
-        margin:0px
+        margin:0px;
+        min-width: 680px;
     }
-    
+}
+
+@media screen and(max-width:460px) {
+    .foot{
+        margin:0px;
+        width: 460px;
+        display:grid;
+        grid-template-columns: 1fr;
+    }
 }

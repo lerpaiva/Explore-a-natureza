@@ -1,4 +1,4 @@
-
+/*estilo do pop up*/
 .modal{
     display: none;
     padding: 20px;
@@ -10,7 +10,7 @@
     left: 50%;
     transform: translateX(-50%);
 }
-
+/*estilo pop up forms*/
 .modal-forms{
     background-color: #f5faf6;
     display: flex;
@@ -20,7 +20,7 @@
     border: 10px double var(--background-green);
     padding: 40px;
 }
-
+/*input do forms*/
 .modal-forms input{
     border: 2px solid #6e6e6e;
     padding: 10px;

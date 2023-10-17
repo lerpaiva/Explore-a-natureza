@@ -1,4 +1,4 @@
-
+/* estilização das perguntas do faq*/
 .pergunta{
     font-family: 'Poppins';
     font-size: 24px;
@@ -10,7 +10,7 @@
     margin-left: 140px;
     margin-top: 40px;
 }
-
+/* estilização das respostas*/
 .parag{
     max-width: 700px;
     margin-top: 15px;
@@ -25,29 +25,55 @@
     width: 1200px;
     
 }
+/* para poder ser chamado no js*/
 .js-faq p{
     display: none;
 }
 .js-faq p.active{
     display:block;
 }
+/*estilização quando a tela for de no máximo 680 ou 460*/
 @media screen and(max-width:680px){
     .pergunta{
-        margin:0px;
-        padding:0px;
-        display:grid;
-        grid-template-columns: 2fr;
+        display: grid;  
+        grid-template-columns: 1fr;  
         font-size: 25px;
-        align-content: center;
-        justify-content: center;
+        margin-left: 0px;
+        margin-right: 20px;
     }
 
+
     .parag{
-        display:grid;
-        grid-template-columns: 2fr;
+        margin-left:0px;
+        padding:0px;
+        margin-right: 20px;
+        display: grid;  
+        grid-template-columns: 1fr;  
         font-size: 15px;
         justify-content: center;
-        align-items: center;
+        max-width:min-content;
+
     }
+}
+@media screen and(max-width:460px){
+    .pergunta{
+        display: grid;  
+        grid-template-columns: 1fr;  
+        font-size: 10px;
+        margin-left: 0px;
+        margin-right: 10px;
+    }
+
+
+    .parag{
+        margin-left:0px;
+        padding:0px;
+        margin-right: 10px;
+        display: grid;  
+        grid-template-columns: 1fr;  
+        font-size: 7px;
+        justify-content: center;
     
+
+    }
 }

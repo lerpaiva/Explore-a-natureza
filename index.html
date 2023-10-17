@@ -310,16 +310,18 @@
     <!--fim do faq-->
     </section>
     <!--section das informações de contato-->
-    <section>
+    <section class="sec4">
+        <!--tag h2 usada para o título "contato"-->
+        <h2 class="titulo tit2">CONTATO 📞</h2>
         <!--div que inclui todas as informações-->
         <div class="if">
-            <!--tag h2 usada para o título "contato"-->
-            <h2 class="titulo tit2">CONTATO 📞</h2>
+            
+
             <!--tag iframe usada para linkar um mapa do google maps-->
             <div class ="iframer">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3667.313639680127!2d-46.89395212576599!3d-23.195237848241508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbr!4v1695142443922!5m2!1sen!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-            <!--div para as informações escritas-->>
+            <!--div para as informações escritas-->
             <div>
                 <!--tag "p" para escrever o nome da escola-->
                 <p class="info">Escola Senai Conde Alexandre Siciliano</p>
@@ -340,17 +342,18 @@
         </div>
     <!--fim do rodapé-->
     </footer>
-    <div class=" modal js-modal">
+    <!--modal, pop up-->
+    <div class="modal js-modal">
         <span class="material-symbols-outlined modal-close">
             close
         </span>
         <form class="modal-forms">
             <h3>RECEBA NOTIFICAÇÕES:</h3>
-            <label for="">Email:</label>
+            <label for="email">Email:</label>
             <input name="email" type="email" placeholder="Insira seu email" required="">
             <input type="submit" value="Enviar">
+            <div id="msg"></div>
         </form>
-        <div id="msg"></div>
     </div>
     <!--linkando os arquivos java script-->
     <script type="module" src="./js/index.js"></script>

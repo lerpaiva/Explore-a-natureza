@@ -1,9 +1,11 @@
+/*padding esquerdo do menu*/
 .menu{
     padding-left: 240px;
     
     
 
 }
+/*estilização cabeça, cor, altura*/
 .head{
     max-width: var(--width);
     margin: 2rem 0 2rem auto;
@@ -13,6 +15,7 @@
     height: 65px;
 
 }
+/*deixar itens em linha e espaçados*/
 .cabeçalho{
     display: flex;
     flex-direction: row;
@@ -21,7 +24,7 @@
     padding-left: 10px;
     align-items: center;
 }
-
+/*estilizar links*/
 a{
     color:var(--color-white);
     font-size: 14px;
@@ -29,11 +32,12 @@ a{
     font-weight: 600;
     
 }
+/*margem dos icons*/
 .icon{
     margin-right: 5px;
     margin-left: 22px;
 }
-
+/*estilo botao menu*/
 .toggle {
     align-items: center;
     gap: 0.5rem;
@@ -45,9 +49,11 @@ a{
     display: none;
 
 } 
+/*aparecer lista*/
 .js-liste{
     display: flex;
 }
+/*estilização telas 680 e 460*/
 @media screen and (max-width: 680px){
     .menu{
         padding-left: 0px;
@@ -78,8 +84,7 @@ a{
 
     .js-liste.active{
         display: block;
-        position: absolute;
-        top: 69px;
+     top: 69px;
         left: 0;
         width: 100%;
         background-color: var(--background-green);

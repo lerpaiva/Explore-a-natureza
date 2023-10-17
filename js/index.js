@@ -6,7 +6,7 @@ faq()
 conteudo()
 menuMobileInit()
 modall()
-
+/*importando todos os js*/
 
 
 
